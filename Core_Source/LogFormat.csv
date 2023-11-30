@@ -1,0 +1,2 @@
+    Log,     Log  ,    Log  , Remote, Op Type:,  AirCon,  AirCon,Cmpressr,Cmpressr,Cmpressr,Cmpressr,Cmpressr,Cmpressr,    EEV,   EEV,    'C,    'C,    'C,    'C,    'C,    'C,    'C,  Thermal,   Fan,   Fan,ACIT Ver.,ACIT Ver.,TCutTimer,TCutTimer
+    No,    Date,   Time,Command,USB?Play,SubMode,MainMode,Op Mode,TargetStep,MaxStep,MinStep,FinalStep,FinalFreq,  CycleM,  Pulse,  Indr Air,RemoeSet,Indr Pipe,Cmp.Dsch,OutdrPipe,Outdr Air,   error,    Cut,   Step,   Rpm,   Time,    Date,   Slow,   Fast

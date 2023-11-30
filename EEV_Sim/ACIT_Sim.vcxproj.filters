@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Core_Source">
+      <UniqueIdentifier>{49ef6730-08f4-4299-93ea-90511d7648e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conf_Files">
+      <UniqueIdentifier>{09b8f55e-6627-4228-bfec-16d08e910d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form_sources">
+      <UniqueIdentifier>{291903b4-6e5a-430f-b54c-ee59dfcaf0b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abt.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureForm.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="CInfo.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="EndApp.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="File_View.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="FileErr.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Information_Menu.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Log_File_View.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Password.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Strt.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="USB.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\ACIT.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Compressor.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Decisions.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Definitions.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Defrost.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\EEV.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\EEV_Comp.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Errors.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Fan.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\MemoryCom.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Mode.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Prototype.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Reliability.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Structures.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Tables_Comp.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core_Source\Tables_General.h">
+      <Filter>Core_Source</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Conf_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Conf_Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Conf_Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Conf_Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Abt.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureForm.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CInfo.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EEV_Sim.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EndApp.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="File_View.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FileErr.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Information_Menu.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Log_File_View.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Password.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Strt.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+    <ClCompile Include="USB.cpp">
+      <Filter>Form_sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

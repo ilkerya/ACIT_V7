@@ -1,0 +1,32 @@
+
+
+					"Outair           " +  COMMON_Show_Temperature(Temperature.OutAir)+nl +
+					"OutMidPipe   " +  COMMON_Show_Temperature(Temperature.OutMidPipe)+nl +
+					"Discharge     " +  COMMON_Show_Temperature(Temperature.Discharge)+nl+
+					"InAir            " +  COMMON_Show_Temperature(Temperature.InAir)+nl +
+					"InMidPipe     " +  COMMON_Show_Temperature(Temperature.InMidPipe)+nl +
+					"InSet               " +  COMMON_Show_Temperature(Temperature.InSet)+nl +
+					"HeatSink        " +  COMMON_Show_Temperature(Temperature.HeatSink)+nl +
+
+					"DCLink           " +  (Hardware.DCVoltage).ToString()+ " Volt"+nl +
+					"InpCurrent      " +  (Hardware.InpCurrent/10).ToString()+ " Amper"+nl +
+					"InpVoltage     " +  (Hardware.InpVoltage).ToString()+ " Volt"+nl +
+					"Compr. Current " +  (Hardware.CompCurrent/10).ToString()+ " Amper"+nl +  
+					"EEV Return     " +  (Hardware.EEVPulse).ToString()+ "  Pulse"+nl +
+					"Fan  Return     " +  (Hardware.OutFanFreq).ToString()+ "  Rpm"+nl +
+					"Compr. Return " +  (Hardware.CompressorFreq).ToString()+ "  Frequency"+nl +
+
+					"Relays Return    " +  (Hardware.OnOff).ToString()+nl +
+					"4Way  Return " +  (Hardware.Valve4Way).ToString()+nl +
+					"Error Code Compresor   " +  (Error.Compressor) .ToString()+nl +
+					"Error Code PFC           " +  (Error.PFC).ToString()+nl +
+					"Error Code OutdoorUnit  " +  (Error.OutdoorUnit).ToString()+nl +
+					"Error Code IndoorUnit      " +  (Error.IndoorUnit).ToString()+nl +
+					"USB CRC Recived    = "  + GUI.USB.CRC_Received.ToString() + nl +
+					"USB CRC Calculated =" + GUI.USB.CRC_Calculated.ToString()+nl +
+					"USB Communication Error :" + GUI.USB.ErrorRate.ToString() +nl +
+					"MicrochipCompileTime :" +  TimeStamp_Micro +  "  "+ DateStamp_Micro+nl +
+					"Outdoor  RS-232 Connection :" + OutdoorConnectionState+nl +
+					"Outdoor  RS-232 CRC. Errors   :" + OutdoorConnectionError+nl +
+					"Intdoor  RS-232 Connection :" + IndoorConnectionState+nl +
+					"Indoor  RS-232 CRC Errors    :" +  IndoorConnectionError;

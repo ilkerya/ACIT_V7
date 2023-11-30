@@ -1,0 +1,34 @@
+
+1)
+D:\\ACIT_SIM   dir. altina ac
+ asagidagi dirleri kontrol et
+D:\\ACIT_SIM\Debug
+D:\\ACIT_SIM\EEV_Sim
+D:\\ACIT_SIM\Pictures
+D:\\ACIT_SIM\Core_Source
+
+2)
+       NPlot.dll dosyasini windows\\system altina at
+
+3) allttaki dir. tanimla
+Project->proporties->Configuration Proporties->C/C++ ->
+	 Additional Include Directories-> D:\ACIT_SIM\Core_Source ekle
+
+
+
+
+
+
+
+nplot-0.9.10.0 = tablo ve cizim sinifi eklentisi
+http://netcontrols.org/nplot/wiki/index.php?n=Main.DownloadArea
+adresinden de indirilerek ayni klasor altina yerlestirilebilir
+
+
+
+http://sleepmonitor.googlecode.com/svn-history/r6/trunk/src/References/nplot/demo/cpp/PlotSurface2DDemo.cpp
+http://alephzero.co.uk/index.htm
+
+
+
+
